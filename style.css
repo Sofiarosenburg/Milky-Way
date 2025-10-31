@@ -88,7 +88,7 @@ left: 50% ;
 #urano img    { width: 60px; height: 60px; }
 #netuno img   { width: 55px; height: 55px; }
 
-/* ta saindo da telaa*/
+/* ta saindo da telaa*/ /*used AI to fix!*/
 @keyframes orbita1 { from { transform: rotate(0deg) translateX(130px) rotate(0deg);} to { transform: rotate(360deg) translateX(130px) rotate(-360deg);} }
 
 @keyframes orbita2 { from { transform: rotate(0deg) translateX(180px) rotate(0deg);} to { transform: rotate(360deg) translateX(180px) rotate(-360deg);}  }
@@ -148,4 +148,5 @@ position: fixed;
 cursor: pointer;
 margin-top: 20px;
 }
+
 
