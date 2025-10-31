@@ -1,3 +1,5 @@
+/*configuração geral, dps arrumo erros*/ 
+
 * { box-sizing: border-box; }
 html, body { height: 100%; margin: 0; }
 
@@ -16,6 +18,7 @@ html, body {
 
 }
 
+/*titulo e texto*/
 h1 {
   margin-top:40px; /* mudar cor*/
 }
@@ -25,7 +28,7 @@ p  {
   margin-bottom :  0;
 }
 
-canvas {
+canvas { /*no meio*/
   display:block;
   margin: 0  auto;
   margin-top: 50px !important;      /*fica mais em cima mas n no titulo*/
@@ -39,6 +42,7 @@ z-index: 60;
     }
 
 
+/* fica a VL aq*/
 #caixaDaViaLactea {
   position: relative;
   width: 100%;
@@ -88,7 +92,7 @@ left: 50% ;
 #urano img    { width: 60px; height: 60px; }
 #netuno img   { width: 55px; height: 55px; }
 
-/* ta saindo da telaa*/ /*used AI to fix!*/
+/* ta saindo da telaa*/ /*arrumei com ia*/
 @keyframes orbita1 { from { transform: rotate(0deg) translateX(130px) rotate(0deg);} to { transform: rotate(360deg) translateX(130px) rotate(-360deg);} }
 
 @keyframes orbita2 { from { transform: rotate(0deg) translateX(180px) rotate(0deg);} to { transform: rotate(360deg) translateX(180px) rotate(-360deg);}  }
@@ -99,6 +103,7 @@ left: 50% ;
 @keyframes orbita7 { from { transform: rotate(0deg)  translateX(500px) rotate(0deg);} to { transform: rotate(360deg) translateX(500px) rotate(-360deg);} }
  @keyframes orbita8 { from { transform: rotate(0deg) translateX(570px) rotate(0deg);} to { transform: rotate(360deg) translateX(570px) rotate(-360deg);} }
 
+  /*velo diferentes q nem no real*/
 #mercurio { animation: orbita1 22s linear infinite;}
 #venus   {animation: orbita2 35s linear infinite;}
 #terra   {animation: orbita3 50s linear infinite; }
@@ -148,5 +153,6 @@ position: fixed;
 cursor: pointer;
 margin-top: 20px;
 }
+
 
 
