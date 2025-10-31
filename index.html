@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Milky Way map</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Milky Way in a fun way</h1>    <!-- procurar um trocadilho pro nomeee -->
+
+    <p class="subtitulo">Drag down to see the galaxy and click on a planet to see a fun fact!</p>
+  </header>
+
+  <main id="caixaDaViaLactea">
+<!--ta ficando com borda estranha, arrumar!!-->
+    <div id="sol"></div>
+
+   <!-- pesquisar ff melhores -->
+<div id="mercurio" class="planeta" data-nome="Mercury" data-fato="Mercury has almost no atmosphere, which is why heat escapes so quickly after sunset.">
+      <img src="mercurio.png" alt="Mercury">
+  </div>
+
+  <div id="venus" class="planeta" data-nome="Venus" data-fato="A day in Venus lasts 243 Earth days and it rotates backwards compared to most other planets.">
+      <img src="venus.png" alt="Venus">
+    </div>
+
+  <div id="terra" class="planeta" data-nome="Earth" data-fato="Around 71% of Earth's surface is covered by water, and that's why it is called Blue planet.">
+      <img src="terra.png" alt="Earth">
+  </div>
+
+  <div id="marte" class="planeta" data-nome="Mars" data-fato="The planet has the largest volcano in the entire solar system: Olympus Mons, about 3 times taller than Mount Everest!">
+      <img src="marte.png" alt="Mars">
+
+    </div>
+
+    <div id="jupiter" class="planeta" data-nome="Jupiter" data-fato="Europa, one of its moons, has a subsurface ocean that might contain life.. scientists are very interested in exploring it.">
+      <img src="jupiter.png" alt="Jupiter">
+    </div>
+
+    <div id="saturno" class="planeta" data-nome="Saturn" data-fato="Its rings, made of ice, rock and dust, are incredibly wide, they stretch over 280,000km. ">
+
+      <img src="saturno.png" alt="Saturn">
+    </div>
+
+  <div id="urano" class="planeta" data-nome="Uranus" data-fato="Uranus spins on its side(axis tilted 98 degrees), and because of that, each pole gets 42 years of sunlight, followed by 42 years of darkness.">
+<img src="urano.png" alt="Uranus">
+  </div>
+
+    <div id="netuno" class="planeta" data-nome="Neptune" data-fato="It was the first planet discovered by mathematics. Scientists predicted its position before it was seen through a telescope.">
+      <img src="netuno.png" alt="Neptune">
+    </div>
+  </main>
+
+  <!--planeta ficar grande quando clica.. n ta smooth -->
+  <section id="modoZoom" aria-hidden="true">
+
+    <div id="zoomContent">
+
+      <img id="imagemDoPlaneta" src="" alt="">
+      <div id="caixaDosFatos">
+
+        <h2 id="nomePlaneta"></h2>
+        <p id="textoCuriosidade"></p>
+      </div>
+      <button id="botaoVoltar" aria-label="Voltar">← Voltar</button>    <!-- n ta funcionando direito-->
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
