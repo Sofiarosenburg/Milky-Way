@@ -3,12 +3,12 @@ Here, each planet has a story to tell, and they all rotate around the Sun as you
 
 # About
 - The project highlights interesting facts about every planet in the Solar System, such as:
-Mercury’s extreme temperature changes;
-Venus being hotter than Mercury, even though it’s farther from the Sun;
-Earth as the only known planet with life;
-Mars and its dusty red landscapes;
-Jupiter’s huge storms and Saturn’s iconic rings;
-The icy worlds of Uranus and Neptune.
+- Mercury’s extreme temperature changes;
+- Venus being hotter than Mercury, even though it’s farther from the Sun;
+- Earth as the only known planet with life;
+- Mars and its dusty red landscapes;
+- Jupiter’s huge storms and Saturn’s iconic rings;
+- The icy worlds of Uranus and Neptune.
 - While learning about them, you can also watch the planets moving around the Sun, giving the site a dynamic and realistic feel.
 
 # How to Use
