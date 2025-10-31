@@ -93,10 +93,10 @@ left: 50% ;
 
 @keyframes orbita2 { from { transform: rotate(0deg) translateX(180px) rotate(0deg);} to { transform: rotate(360deg) translateX(180px) rotate(-360deg);}  }
 @keyframes orbita3 { from { transform: rotate(0deg) translateX(230px) rotate(0deg);} to { transform: rotate(360deg) translateX(230px) rotate(-360deg);}  }
-@keyframes orbita4 { from { transform: rotate(0deg) translateX(280px) rotate(0deg);} to { transform: rotate(360deg) translateX(280px) rotate(-360deg);} }
-@keyframes orbita5 { from { transform: rotate(0deg) translateX(350px) rotate(0deg);} to { transform: rotate(360deg) translateX(350px) rotate(-360deg);} }
+@keyframes orbita4  { from { transform: rotate(0deg) translateX(280px) rotate(0deg);} to { transform: rotate(360deg) translateX(280px) rotate(-360deg);} }
+@keyframes orbita5 { from { transform: rotate(0deg)  translateX(350px) rotate(0deg);} to { transform: rotate(360deg) translateX(350px) rotate(-360deg);} }
 @keyframes orbita6 { from { transform: rotate(0deg) translateX(430px) rotate(0deg);} to { transform: rotate(360deg) translateX(430px) rotate(-360deg);} }
-@keyframes orbita7 { from { transform: rotate(0deg) translateX(500px) rotate(0deg);} to { transform: rotate(360deg) translateX(500px) rotate(-360deg);} }
+@keyframes orbita7 { from { transform: rotate(0deg)  translateX(500px) rotate(0deg);} to { transform: rotate(360deg) translateX(500px) rotate(-360deg);} }
  @keyframes orbita8 { from { transform: rotate(0deg) translateX(570px) rotate(0deg);} to { transform: rotate(360deg) translateX(570px) rotate(-360deg);} }
 
 #mercurio { animation: orbita1 22s linear infinite;}
@@ -148,3 +148,4 @@ position: fixed;
 cursor: pointer;
 margin-top: 20px;
 }
+
